@@ -1,0 +1,271 @@
+body {
+  text-align: center;
+  font-family: "Cabin", sans-serif;
+}
+.tittle-heading {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  color: rgb(34, 33, 33);
+}
+
+.title-section {
+  padding: 1% 10%;
+}
+
+.color-gray {
+  color: rgb(189, 170, 170);
+}
+.navbar-index{
+  z-index: +1;
+}
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+  text-align: left;
+}
+.intro-div-container {
+  border: 1px solid;
+  padding: 5% 10%;
+  text-align: left;
+  background-color: rgb(18, 18, 59);
+}
+.nav-ul-list {
+  text-align: center;
+  line-height: 3;
+}
+
+.tittle-right-pattern-desktop {
+  position: absolute;
+  margin-left: 17%;
+  z-index: +1;
+  right: 0;
+}
+.tittle-right-pattern-mobile{
+  position: absolute;
+  margin-left: 17%;
+  z-index: +1;
+  right: 0px;
+  visibility: hidden;
+}
+.tittle-left-pattern-desktop {
+  position: absolute;
+  left: 0;
+  margin-top: -14%;
+}
+.tittle-left-pattern-mobile{
+  position: absolute;
+  left: 0;
+  margin-top: 0;
+  visibility: hidden;
+}
+
+.download-button{
+margin-bottom: 10%;
+}
+.tittle-section-hr {
+  height: 0;
+  width: 30%;
+  border: 1px solid;
+  margin: 0 0 10% 0;
+}
+.pos-abs {
+  position: absolute;
+  float: left;
+  width: 90%;
+  height: 150%;
+}
+
+/* feature section */
+
+.feature-section-hr1 {
+  height: 0;
+  width: 30%;
+  border: 1px solid;
+  margin: 0 0 0 0;
+}
+.feature-section-hr2 {
+  visibility: hidden;
+}
+
+.feature-container {
+  margin: 15% 10% 5% 10%;
+  text-align: left;
+}
+.feature-container h1 {
+  padding: 5% 0 5% 0;
+}
+.feature-row-padding img {
+  margin-bottom: 3%;
+}
+
+/* how we work section. */
+
+.wework-container {
+  padding: 5% 10%;
+  color: white;
+}
+.wework-sec-col {
+  padding: 5% 10%;
+  background-color: rgb(18, 18, 59);
+}
+@media (max-width: 1160px) {
+  .wework-sec-col {
+    padding: 5% 7%;
+  }
+}
+
+.big-heading-wework {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+.wework-sec-col button {
+  margin-top: 50%;
+}
+
+/* footer section */
+.footer-container {
+  padding: 5% 10%;
+  background-color: gainsboro;
+}
+.footer-icon {
+  text-align: left;
+}
+.footer-padding-tittle {
+  padding: 0;
+}
+.footer-follow-icon img {
+  padding: 1%;
+}
+.footer-container ul li {
+  list-style-type: none;
+  text-align: left;
+}
+.footer-heading-links {
+  color: gray;
+  padding-bottom: 5%;
+  font-family: "Cabin", sans-serif;
+}
+.footer-links-categories li {
+  margin-bottom: 2%;
+}
+.footer-links-categories a {
+  color: rgb(44, 42, 42);
+  text-decoration: none;
+}
+.footer-pattern-image{
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 991px) {
+  .big-heading {
+    text-align: center;
+    margin: 4% auto;
+  }
+
+  .container {
+    text-align: center;
+    margin: 4% auto;
+  }
+  .container p {
+    margin: 2% auto;
+  }
+  .tittle-section-hr {
+    margin: auto;
+    margin-bottom: 2%;
+  }
+  .feature-section-hr1 {
+    margin: 0;
+    visibility: hidden;
+  }
+  .feature-container {
+    text-align: center;
+    margin: auto;
+  }
+  .pos-abs {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+  .feature-row-padding {
+    padding: 0 0 5% 0;
+  }
+  .feature-container .row {
+    margin: 0;
+  }
+  .feature-container h1 {
+    padding: 0;
+  }
+  .feature-heading {
+    margin-top: 5%;
+  }
+  .feature-section-hr2 {
+    visibility: visible;
+    height: 0;
+    width: 30%;
+    border: 1px solid;
+    margin: 5% auto;
+  }
+  .wework-sec-col button {
+    margin:5% auto;
+  }
+  .tittle-heading {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .footer-container ul li {
+    text-align: center;
+  }
+  .footer-container ul {
+    padding: 0;
+  }
+  .footer-heading-links {
+    color: gray;
+    font-family: "Cabin", sans-serif;
+    padding-top: 10%;
+  }
+  .footer-links-categories li {
+    margin-bottom: 3%;
+  }
+  .footer-follow-icon {
+    margin-bottom: 5%;
+  }
+  .nav-ul-list{
+    background-color: rgb(18, 18, 59);
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+.btn {
+  border-color: white;
+  color: white;
+  width: 90%;
+}
+.btn:hover {
+  background-color: white;
+  color: rgb(18, 18, 59) ;
+}
+.tittle-right-pattern{
+  visibility: hidden;
+}
+.tittle-right-pattern-desktop{
+  visibility: hidden;
+}
+.tittle-right-pattern-mobile{
+visibility: visible;
+}
+.tittle-left-pattern-desktop{
+visibility: hidden;
+}
+.tittle-left-pattern-mobile{
+  visibility: visible;
+}
+.footer-pattern-image{
+  width: 100%;
+}
+}
